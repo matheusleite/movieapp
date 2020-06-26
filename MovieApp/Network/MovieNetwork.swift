@@ -67,4 +67,9 @@ class MovieNetwork {
         let movieURL = url.appendingPathComponent(endpoint)
         fetchResources(url: movieURL, completion: result)
     }
+    
+    public func getMovieInfo(endpoint: String, result: @escaping (Result<MovieInfo, NetworkError>) -> Void) {
+        let movieURL = url.appendingPathComponent(endpoint)
+        fetchResources(url: movieURL, completion: result)
+    }
 }

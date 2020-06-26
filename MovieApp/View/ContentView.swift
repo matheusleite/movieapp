@@ -19,9 +19,7 @@ struct ContentView: View {
                 Text("Loading...")
             } else {
                 List(viewModel.movieList){ movie in
-                    NavigationLink(destination: MovieDetail(movie: movie)) {
-                        MovieCell(movie: movie)
-                    }
+                    MovieCell(movie: movie)
                 }
                 .navigationBarTitle(Text("Trending Movies"))
                     /// removing separators from the list

@@ -15,5 +15,7 @@ struct Movie: Codable, Identifiable {
     let releaseDate: Date
     let voteAverage: Double
     let voteCount: Int
+    let genreIds: [Int]
+    let backdropPath: String
     let adult: Bool
 }
