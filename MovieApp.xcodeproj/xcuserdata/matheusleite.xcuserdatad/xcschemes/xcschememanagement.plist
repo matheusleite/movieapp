@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
+		<key>MovieAppTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C1BCE5C249D145B00F3604B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C1BCE72249D145D00F3604B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3C1BCE7D249D145D00F3604B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
